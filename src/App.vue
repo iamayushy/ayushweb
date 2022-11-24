@@ -1,31 +1,64 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+ <div class="content">
+  
+  <h1>Ayush Yadav</h1>
+  <p>Work In Progress</p>
+ </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+.content {
+  color: rgb(74, 255, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+  font-size: 3rem;
+
+
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.content h1{
+  text-transform: uppercase;
+  animation: flow 1s infinite ease-in-out forwards;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.content p {
+  color: rgb(255, 7, 247);
+  /* border: 2px solid red; */
+  padding: 1rem;
+  border-radius: 10px;
+  animation: rotate 4s infinite linear;
+}
+@keyframes flow {
+  0%{
+    color: rgb(74, 255, 216);
+    transform: scale(105%);
+  }
+  100%{
+    color: rgb(69, 255, 122);
+    
+  }
+}
+@keyframes rotate {
+  0%{
+    border-top: 4px solid rgb(211, 34, 255);
+  }
+  25%{
+    border-right: 4px solid rgb(175, 255, 207);
+  }
+  50%{
+    border-bottom: 4px solid rgb(255, 238, 194);
+  }
+  75%{
+    border-left: 4px solid rgb(255, 108, 55);
+  }
+ 100%{
+  border: 4px solid rgb(255, 255, 255);
+ }
+
 }
 </style>
