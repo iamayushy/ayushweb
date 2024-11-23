@@ -1,11 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
-  
-Here's an optimized SEO meta data for Ayush Yadav's Remix 2 application, keeping both clarity and keyword relevance in mind:
-
-javascript
-Copy code
 return [
   { title: "Ayush Yadav - Passionate Frontend Developer" },
   {
