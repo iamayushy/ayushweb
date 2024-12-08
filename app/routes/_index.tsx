@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import HeroBackground from "~/components/common/HeroBackgroud";
+import StarBackground from "~/components/common/StarOS";
 
 export const meta: MetaFunction = () => {
 return [
@@ -14,19 +16,20 @@ return [
   { name: "og:title", content: "Ayush Yadav - Passionate Frontend Developer" },
   { name: "og:description", content: "Explore the work of Ayush Yadav, an experienced React and Vue.js developer based in India, focused on building high-quality frontend experiences." },
   { name: "og:type", content: "website" },
-  { name: "og:url", content: "https://www.ayushyadav.dev" }, // Adjust URL to your site
-  { name: "og:image", content: "https://www.ayushyadav.dev/images/profile-pic.jpg" }, // Adjust with your actual image
+  { name: "og:url", content: "https://www.ayushyadav.in" },
+  { name: "og:image", content: "https://www.ayushyadav.in/images/profile-pic.jpg" },
   { name: "twitter:card", content: "summary_large_image" },
   { name: "twitter:title", content: "Ayush Yadav - Passionate  Developer" },
   { name: "twitter:description", content: "Discover the work of Ayush Yadav, a frontend developer with expertise in React, Vue.js, and UI design." },
-  { name: "twitter:image", content: "https://www.ayushyadav.dev/images/profile-pic.jpg" }, // Adjust with your actual image
+  { name: "twitter:image", content: "https://www.ayushyadav.in/images/profile-pic.jpg" },
 ];
 };
 
 export default function Index() {
   return (
     <div className="flex h-screen items-center justify-center">
-      Ayush Here,
+      <StarBackground />
+      <HeroBackground />
     </div>
   );
 }
