@@ -13,14 +13,7 @@ const HeroBackground = () => {
             className="text-blue-400 hover:text-blue-300"
           >
             ayushhuns@gmail.com
-          </a>
-          <span>|</span>
-          <a
-            href="tel:+917900038261"
-            className="text-blue-400 hover:text-blue-300"
-          >
-            +91 7900038261
-          </a>
+          </a>        
         </div>
       </div>
       <div className="absolute right-20 top-1/2 w-32 h-32 rounded-full bg-purple-700 opacity-75 blur-lg animate-pulse" />
