@@ -6,6 +6,7 @@ import { ExperienceSection } from "~/components/home/experience-section";
 import { SkillsSection } from "~/components/home/skills-section";
 import { ContactSection } from "~/components/home/contact-section";
 import { CustomCursor } from "~/components/ui/custom-cursor";
+import { StructuredData } from "~/components/ui/structured-data";
 
 export const meta: MetaFunction = () => {
   return [
@@ -19,16 +20,19 @@ export const meta: MetaFunction = () => {
     { property: "og:url", content: "https://ayushyadav.in" },
     { property: "og:site_name", content: "Ayush Yadav" },
     { name: "twitter:card", content: "summary" },
-    { name: "twitter:title", content: "Ayush Yadav | Software Engineer & Full Stack Developer" },
+    { name: "twitter:title", content: "Ayush Yadav | Software Engineer & Full Stack Developer | Frontend Engineer" },
     { name: "twitter:description", content: "Official website of Ayush Yadav - Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies." },
     { name: "robots", content: "index, follow" },
     { name: "googlebot", content: "index, follow" },
+    { name: "geo.region", content: "IN" }, 
+    { name: "geo.placename", content: "Mumbai" },
   ];
 };
 
 export default function Index() {
   return (
     <div className="relative min-h-screen bg-black">
+      <StructuredData />
       <CustomCursor />
       <Nav />
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]" />
