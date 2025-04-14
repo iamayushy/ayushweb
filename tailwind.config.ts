@@ -78,6 +78,12 @@ export default {
           '0%': { transform: 'translateY(0) scale(1)', opacity: '0.7' },
           '100%': { transform: 'translateY(-10px) scale(0.8)', opacity: '0.3' },
         },
+        roleChange: {
+          '0%, 25%': { transform: 'translateY(0)' },
+          '33%, 58%': { transform: 'translateY(-1.5rem)' },
+          '66%, 91%': { transform: 'translateY(-3rem)' },
+          '100%': { transform: 'translateY(0)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -86,6 +92,7 @@ export default {
         'flame-flicker': 'flameFlicker 3s infinite alternate',
         'flame-sway': 'flameSway 4s infinite alternate',
         'flame-rise': 'flameRise 2.5s infinite',
+        'role-change': 'roleChange 8s cubic-bezier(0.4, 0, 0.2, 1) infinite',
       },
     },
   },
