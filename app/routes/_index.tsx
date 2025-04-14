@@ -9,17 +9,21 @@ import { CustomCursor } from "~/components/ui/custom-cursor";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Ayush Yadav | Full Stack Engineer & UI/UX Designer" },
-    { name: "description", content: "Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies. Building scalable web applications with modern architecture, clean code, and exceptional user experiences." },
-    { name: "keywords", content: "full stack engineer, full stack developer, UI designer, React, Node.js, TypeScript, JavaScript, web development, backend development, cloud architecture, API design, database, portfolio, Ayush Yadav" },
+    { title: "Ayush Yadav | Software Engineer & Full Stack Developer" },
+    { name: "description", content: "Official website of Ayush Yadav - Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies. Portfolio showcasing projects, experience, and skills." },
+    { name: "keywords", content: "Ayush Yadav, Ayush, Yadav, software engineer, full stack developer, UI designer, React, Node.js, TypeScript, JavaScript, web development, portfolio" },
     { name: "author", content: "Ayush Yadav" },
-    { property: "og:title", content: "Ayush Yadav | Full Stack Engineer & UI/UX Designer" },
-    { property: "og:description", content: "Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies. Building scalable web applications with modern architecture." },
+    { property: "og:title", content: "Ayush Yadav | Software Engineer & Full Stack Developer" },
+    { property: "og:description", content: "Official website of Ayush Yadav - Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies." },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://ayushyadav.in" },
+    { property: "og:site_name", content: "Ayush Yadav" },
     { name: "twitter:card", content: "summary" },
-    { name: "twitter:title", content: "Ayush Yadav | Full Stack Engineer & UI/UX Designer" },
-    { name: "twitter:description", content: "Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies. Building scalable web applications with modern architecture." },
+    { name: "twitter:title", content: "Ayush Yadav | Software Engineer & Full Stack Developer" },
+    { name: "twitter:description", content: "Official website of Ayush Yadav - Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies." },
+    { name: "robots", content: "index, follow" },
+    { name: "googlebot", content: "index, follow" },
+    { name: "google-site-verification", content: "YOUR_VERIFICATION_CODE" }, // Replace with your Google verification code
   ];
 };
 
