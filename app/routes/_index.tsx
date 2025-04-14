@@ -23,7 +23,6 @@ export const meta: MetaFunction = () => {
     { name: "twitter:description", content: "Official website of Ayush Yadav - Full Stack Engineer specializing in React, Node.js, TypeScript, and cloud technologies." },
     { name: "robots", content: "index, follow" },
     { name: "googlebot", content: "index, follow" },
-    { name: "google-site-verification", content: "YOUR_VERIFICATION_CODE" }, // Replace with your Google verification code
   ];
 };
 
