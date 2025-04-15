@@ -22,7 +22,7 @@ export function FeaturedProjects() {
         "Result visualization components",
         "User authentication system"
       ],
-      link: "#"
+      link: "https://console.boltic.io"
     },
     {
       title: "JioMartDigital Platform",
