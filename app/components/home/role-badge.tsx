@@ -18,10 +18,10 @@ export function RoleBadge() {
   }, []);
 
   return (
-    <div className="inline-flex animate-fade-in items-center rounded-full border border-zinc-800 bg-zinc-900/50 px-3 py-1 text-sm space-x-2">
-      <div className="mr-2 h-2 w-2 rounded-full bg-emerald-500" />
+    <div className="inline-flex animate-fade-in items-center rounded-full border border-zinc-800 bg-zinc-900/50 px-4 py-1.5 text-sm">
+      <div className="mr-2 h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
       <span 
-        className={`text-zinc-400 transition-opacity duration-500 ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+        className={`text-zinc-400 transition-all duration-500 min-w-[140px] text-center ${isAnimating ? 'opacity-0 transform -translate-y-2' : 'opacity-100 transform translate-y-0'}`}
       >
         {roles[roleIndex]}
       </span>

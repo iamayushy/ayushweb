@@ -5,7 +5,7 @@ import { HeroActions } from "~/components/home/hero-actions";
 
 export function HeroSection() {
   return (
-    <div className="space-y-6 text-center">
+    <div className="flex flex-col items-center justify-center space-y-8 max-w-4xl mx-auto">
       <RoleBadge />
       <HeroHeading />
       <HeroDescription />
