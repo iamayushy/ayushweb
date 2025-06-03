@@ -1,7 +1,7 @@
 export function HeroDescription() {
   return (
     <div className="space-y-6">
-      <p className="mx-auto max-w-2xl animate-slide-up text-base text-zinc-400 sm:text-lg leading-relaxed">
+      <p className="mx-auto max-w-2xl text-center animate-slide-up text-base text-zinc-400 sm:text-lg leading-relaxed">
         Frontend Software Engineer with 2+ years of experience building scalable web applications. 
         Specializing in React, Remix.js, and TypeScript, with a focus on performance optimization 
         and component-driven architecture.
